@@ -21,6 +21,7 @@ TEST_F(TestAdd, AddTest)
 {
     // This should pass, 2 + 4 = 6
     EXPECT_EQ(add(2, 4), 6);
+    EXPECT_EQ(add(2, 8), 21);
 }
 
 TEST_F(TestAdd, AddTest2)
